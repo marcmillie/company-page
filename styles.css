@@ -18,9 +18,37 @@ body {
 
 a {
   color: #17b890;
+  text-decoration: none;
+  font-size: 60px;
 }
+
+a::after {
+  color: #9dc5bb;
+} 
 
 .main {
   background-color: #5e807f;
+  margin-top: 30px;
 }
 
+.label img {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.content {
+  width: 100%;
+  margin: auto;
+
+}
+
+#about {
+  padding: 0px 100px 0px 100px;
+}
+
+#team-members {
+  padding-top: 40px;
+}
